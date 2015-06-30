@@ -4,7 +4,7 @@ public class NewHello {
 		// TODO Auto-generated method stub
 		System.out.println("Hello!");
 		try{
-		Thread.sleep(10000); // 10s sleep
+		Thread.sleep(1000); // 1s sleep
 		}catch(InterruptedException e){
 			System.out.println(e.getMessage());
 		}
